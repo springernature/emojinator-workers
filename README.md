@@ -12,4 +12,5 @@ This app takes advantages of `Web Workers`:
 🤘 **Parallel Computing in JavaScript** 🤘
 
 App (no Workers): https://dist-emuaonjqud.now.sh
+
 App (with Workers): https://dist-wovrleyvbl.now.sh/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <h1>Emojinator 😎</h1>
+            <form action="#0" id="uploadFile">
+                <label for="file">Upload a file</label>
+                <input type="file" id="file" accept=".txt" />
+            </form>
+            <p class="loader">
+                Loading... Please be patience
+            <p>
+                <strong>⏳ Time</strong>: <code id="time"></code>
+            </p>
+        </div>
+        <section class="interactive">
+            <div class="wrapper p1">
+                <h5>Now you can interact with the page while I'm <b>working</b></h5>
+                <input type="checkbox" name="1" id="1">
+                <input type="checkbox" name="2" id="2">
+                <input type="checkbox" name="3" id="3">
+            </div>
+        </section>
+        <section class="results bg--off-white p2">
+            <div class="wrapper">
+                <h2>Magic 💫</h2>
+                <div id="results"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

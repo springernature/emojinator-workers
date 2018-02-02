@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server --open --config webpack.dev.js"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "deploy": "npm run build && now ./dist"
   },
   "keywords": [
     "webpack",
@@ -14,6 +15,9 @@
     "javascript",
     "tool"
   ],
+  "now": {
+    "alias": "workers"
+  },
   "author": "Nicola Zanon",
   "license": "MIT",
   "devDependencies": {

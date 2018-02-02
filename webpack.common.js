@@ -14,7 +14,8 @@ module.exports = {
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
             title: 'Web Workers Rock 🤘',
-            template: './src/index.html'
+            template: './src/index.html',
+            inject: 'head'
         }),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'manifest'

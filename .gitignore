@@ -1,19 +1,12 @@
 # Dependency directory
 node_modules
 
-# Shunter
-public/
-coverage/
+dist/
 reports/
 bin/logs/
 .tmp/
-.idea/
-frontend-naturecareers.iml
-/shunter.pid
 .cfignore
 .DS_Store
 npm-debug.log
-resources/css/
-resources/js/bundle.js
 selenium-debug.log
 snippets.txt
